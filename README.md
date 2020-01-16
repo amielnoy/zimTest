@@ -1,0 +1,2 @@
+# zimTest
+zim tesnet test
