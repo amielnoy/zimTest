@@ -1,0 +1,193 @@
+{
+  "uid" : "891871238898d2a6",
+  "name" : "testTableElementsText",
+  "fullName" : "tests.testTableForZim2.testTableElementsText",
+  "historyId" : "5de41bd1a073b03d2536696e6bcfab47",
+  "time" : {
+    "start" : 1579210332146,
+    "stop" : 1579210332831,
+    "duration" : 685
+  },
+  "description" : "test that string values exist in the table",
+  "descriptionHtml" : "<p>test that string values exist in the table</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1579210332141,
+      "stop" : 1579210332142,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1579210325934,
+      "stop" : 1579210332139,
+      "duration" : 6205
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1579210289692,
+      "stop" : 1579210289745,
+      "duration" : 53
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "test that string values exist in the table",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "searched column number=2",
+      "time" : {
+        "start" : 1579210332830,
+        "stop" : 1579210332830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "searched text to find correct row=Island Trading",
+      "time" : {
+        "start" : 1579210332830,
+        "stop" : 1579210332830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "My Search RESULT=Helen Bennett",
+      "time" : {
+        "start" : 1579210332830,
+        "stop" : 1579210332830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1579210332833,
+      "stop" : 1579210335551,
+      "duration" : 2718
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTableElementsText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R4ISKHQ3"
+  }, {
+    "name" : "thread",
+    "value" : "59820@LAPTOP-R4ISKHQ3.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Contact"
+  }, {
+    "name" : "arg1",
+    "value" : "Island Trading"
+  }, {
+    "name" : "arg2",
+    "value" : "Helen Bennett"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "891871238898d2a6.json",
+  "parameterValues" : [ "Contact", "Island Trading", "Helen Bennett" ]
+}

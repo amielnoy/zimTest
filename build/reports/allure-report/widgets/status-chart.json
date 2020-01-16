@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8b4610769c97bd97",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210305139,
+    "stop" : 1579210305210,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e8299cabd823319",
+  "name" : "TestLanguagesAreChoosedValidly",
+  "time" : {
+    "start" : 1579210269902,
+    "stop" : 1579210272912,
+    "duration" : 3010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b63e6ce7a1634e",
+  "name" : "TestLanguagesAreChoosedValidly",
+  "time" : {
+    "start" : 1579210282746,
+    "stop" : 1579210287038,
+    "duration" : 4292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec8e6c1dc2103185",
+  "name" : "TestLanguagesAreChoosedValidly",
+  "time" : {
+    "start" : 1579210258120,
+    "stop" : 1579210260093,
+    "duration" : 1973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "891871238898d2a6",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210332146,
+    "stop" : 1579210332831,
+    "duration" : 685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53eec67926ef6278",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210342363,
+    "stop" : 1579210343071,
+    "duration" : 708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a89515e72d5e5df",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210314120,
+    "stop" : 1579210314206,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a733446d437e20b4",
+  "name" : "TestHoverAndGetAllLanuageOptions",
+  "time" : {
+    "start" : 1579210248067,
+    "stop" : 1579210248364,
+    "duration" : 297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ace6d1276ba7ed3",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210323155,
+    "stop" : 1579210323261,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "337bb2fd5ffdcd0a",
+  "name" : "testTableElementsText",
+  "time" : {
+    "start" : 1579210295832,
+    "stop" : 1579210296455,
+    "duration" : 623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

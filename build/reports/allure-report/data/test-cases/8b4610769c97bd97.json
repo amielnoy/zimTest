@@ -1,0 +1,193 @@
+{
+  "uid" : "8b4610769c97bd97",
+  "name" : "testTableElementsText",
+  "fullName" : "tests.testTableForZim2.testTableElementsText",
+  "historyId" : "e2d42ab30c26d575867f56ed3b1559bf",
+  "time" : {
+    "start" : 1579210305139,
+    "stop" : 1579210305210,
+    "duration" : 71
+  },
+  "description" : "test that string values exist in the table",
+  "descriptionHtml" : "<p>test that string values exist in the table</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1579210289692,
+      "stop" : 1579210289745,
+      "duration" : 53
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1579210305136,
+      "stop" : 1579210305136,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1579210299141,
+      "stop" : 1579210305135,
+      "duration" : 5994
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "test that string values exist in the table",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "searched column number=3",
+      "time" : {
+        "start" : 1579210305207,
+        "stop" : 1579210305207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "searched text to find correct row=Ernst Handel",
+      "time" : {
+        "start" : 1579210305207,
+        "stop" : 1579210305207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "My Search RESULT=Austria",
+      "time" : {
+        "start" : 1579210305207,
+        "stop" : 1579210305207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1579210305213,
+      "stop" : 1579210307883,
+      "duration" : 2670
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTableElementsText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testTableForZim2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R4ISKHQ3"
+  }, {
+    "name" : "thread",
+    "value" : "59820@LAPTOP-R4ISKHQ3.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Country"
+  }, {
+    "name" : "arg1",
+    "value" : "Ernst Handel"
+  }, {
+    "name" : "arg2",
+    "value" : "Austria"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b4610769c97bd97.json",
+  "parameterValues" : [ "Country", "Ernst Handel", "Austria" ]
+}

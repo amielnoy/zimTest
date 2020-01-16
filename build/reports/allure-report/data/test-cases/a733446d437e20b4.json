@@ -1,0 +1,156 @@
+{
+  "uid" : "a733446d437e20b4",
+  "name" : "TestHoverAndGetAllLanuageOptions",
+  "fullName" : "tests.testForZim1.TestHoverAndGetAllLanuageOptions",
+  "historyId" : "c17ab3650756c29552ed5fb25e69fbed",
+  "time" : {
+    "start" : 1579210248067,
+    "stop" : 1579210248364,
+    "duration" : 297
+  },
+  "description" : "Hover above lang selector and extract all language options",
+  "descriptionHtml" : "<p>Hover above lang selector and extract all language options</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1579210239590,
+      "stop" : 1579210240338,
+      "duration" : 748
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1579210240345,
+      "stop" : 1579210247920,
+      "duration" : 7575
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Hover above lang selector and extract all language options",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Actual languages=English\nDeutsch\nSuomi\n",
+      "time" : {
+        "start" : 1579210248361,
+        "stop" : 1579210248361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Expected languages=English\nDeutsch\nSuomi\n",
+      "time" : {
+        "start" : 1579210248361,
+        "stop" : 1579210248361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1579210248375,
+      "stop" : 1579210251030,
+      "duration" : 2655
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestHoverAndGetAllLanuageOptions"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R4ISKHQ3"
+  }, {
+    "name" : "thread",
+    "value" : "59820@LAPTOP-R4ISKHQ3.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "reporting floating elements after hovering: ",
+    "value" : "English\nDeutsch\nSuomi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a733446d437e20b4.json",
+  "parameterValues" : [ ]
+}

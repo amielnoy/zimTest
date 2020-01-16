@@ -1,0 +1,165 @@
+{
+  "uid" : "ec8e6c1dc2103185",
+  "name" : "TestLanguagesAreChoosedValidly",
+  "fullName" : "tests.testForZim1.TestLanguagesAreChoosedValidly",
+  "historyId" : "8ecaac271e9e5c5cbe0e55c32ac5cec7",
+  "time" : {
+    "start" : 1579210258120,
+    "stop" : 1579210260093,
+    "duration" : 1973
+  },
+  "description" : "test that languages are chosen validly(english,German....",
+  "descriptionHtml" : "<p>test that languages are chosen validly(english,German....</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1579210251037,
+      "stop" : 1579210258116,
+      "duration" : 7079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1579210239590,
+      "stop" : 1579210240338,
+      "duration" : 748
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "test that languages are chosen validly(english,German....",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Actual language=en",
+      "time" : {
+        "start" : 1579210260093,
+        "stop" : 1579210260093,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Expected language=en",
+      "time" : {
+        "start" : 1579210260093,
+        "stop" : 1579210260093,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1579210260096,
+      "stop" : 1579210262761,
+      "duration" : 2665
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLanguagesAreChoosedValidly"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testForZim1"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R4ISKHQ3"
+  }, {
+    "name" : "thread",
+    "value" : "59820@LAPTOP-R4ISKHQ3.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "reporting floating elements after hovering: ",
+    "value" : "English\nDeutsch\nSuomi"
+  }, {
+    "name" : "floating menu element= ",
+    "value" : "English"
+  }, {
+    "name" : "language selected=",
+    "value" : "EN"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec8e6c1dc2103185.json",
+  "parameterValues" : [ "1" ]
+}

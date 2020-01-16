@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.testForZim1" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-16T21:30:48" hostname="LAPTOP-R4ISKHQ3" time="39.011">
+  <properties/>
+  <testcase name="TestHoverAndGetAllLanuageOptions" classname="tests.testForZim1" time="0.337"/>
+  <testcase name="TestLanguagesAreChoosedValidly[0](1)" classname="tests.testForZim1" time="1.976"/>
+  <testcase name="TestLanguagesAreChoosedValidly[1](2)" classname="tests.testForZim1" time="3.013"/>
+  <testcase name="TestLanguagesAreChoosedValidly[2](3)" classname="tests.testForZim1" time="4.294"/>
+  <system-out><![CDATA[2020-01-16 23:30:40 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-01-17 09:32:39)
+2020-01-16 23:30:40 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-01-17 09:32:39)
+2020-01-16 23:30:40 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-16 23:30:40 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-16 23:30:40 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:30:48 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+Opening Text File:D:\Projects\JobTests\zimTest16_1_2019\ZimTest\src\test\resources\TestData\TestLanguagesAreChoosedValidly.txt
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:30:58 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:30:58 DEBUG mainPage:75 - floating menu element= English
+2020-01-16 23:31:00 DEBUG mainPage:85 - language selected= EN
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:31:10 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:31:10 DEBUG mainPage:75 - floating menu element= Deutsch
+2020-01-16 23:31:12 DEBUG mainPage:85 - language selected= DE
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:31:23 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:31:23 DEBUG mainPage:75 - floating menu element= Suomi
+2020-01-16 23:31:27 DEBUG mainPage:85 - language selected= FI
+]]></system-out>
+  <system-err><![CDATA[Jan 16, 2020 11:30:39 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 41918
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:30:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 12625
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:30:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 38982
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:31:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 45511
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:31:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

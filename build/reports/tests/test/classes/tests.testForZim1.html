@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.testForZim1</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.testForZim1</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; testForZim1</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">9.620s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">TestHoverAndGetAllLanuageOptions</td>
+<td class="success">0.337s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestLanguagesAreChoosedValidly[0](1)</td>
+<td class="success">1.976s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestLanguagesAreChoosedValidly[1](2)</td>
+<td class="success">3.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestLanguagesAreChoosedValidly[2](3)</td>
+<td class="success">4.294s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2020-01-16 23:30:40 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-01-17 09:32:39)
+2020-01-16 23:30:40 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-01-17 09:32:39)
+2020-01-16 23:30:40 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-16 23:30:40 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-16 23:30:40 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:30:48 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+Opening Text File:D:\Projects\JobTests\zimTest16_1_2019\ZimTest\src\test\resources\TestData\TestLanguagesAreChoosedValidly.txt
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:30:58 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:30:58 DEBUG mainPage:75 - floating menu element= English
+2020-01-16 23:31:00 DEBUG mainPage:85 - language selected= EN
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:31:10 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:31:10 DEBUG mainPage:75 - floating menu element= Deutsch
+2020-01-16 23:31:12 DEBUG mainPage:85 - language selected= DE
+Browser: Chrome
+WebsiteURL: https://www.777.com/
+HOVERING LANG SELECTION BUTTON:
+2020-01-16 23:31:23 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-16 23:31:23 DEBUG mainPage:75 - floating menu element= Suomi
+2020-01-16 23:31:27 DEBUG mainPage:85 - language selected= FI
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Jan 16, 2020 11:30:39 PM java.util.prefs.WindowsPreferences &lt;init&gt;
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 41918
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:30:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 12625
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:30:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 38982
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:31:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 45511
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 16, 2020 11:31:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at Jan 16, 2020 11:32:25 PM</p>
+</div>
+</div>
+</body>
+</html>

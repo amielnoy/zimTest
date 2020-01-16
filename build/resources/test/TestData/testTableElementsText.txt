@@ -1,0 +1,6 @@
+Country,Maria Anders,Germany
+Country,Ernst Handel,Austria
+Company,Mexico,Centro comercial Moctezuma
+Company,Helen Bennett,Island Trading
+Contact,Island Trading,Helen Bennett
+Contact,UK,Helen Bennett
