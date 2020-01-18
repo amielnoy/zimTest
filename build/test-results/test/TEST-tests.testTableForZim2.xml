@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.testTableForZim2" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-01-16T21:31:35" hostname="LAPTOP-R4ISKHQ3" time="47.241">
+<testsuite name="tests.testTableForZim2" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-01-18T17:15:02" hostname="LAPTOP-R4ISKHQ3" time="67.608">
   <properties/>
-  <testcase name="testTableElementsText[0](Country, Maria Anders, Germany)" classname="tests.testTableForZim2" time="0.626"/>
-  <testcase name="testTableElementsText[1](Country, Ernst Handel, Austria)" classname="tests.testTableForZim2" time="0.074"/>
-  <testcase name="testTableElementsText[2](Company, Mexico, Centro comercial Moctezuma)" classname="tests.testTableForZim2" time="0.089"/>
-  <testcase name="testTableElementsText[3](Company, Helen Bennett, Island Trading)" classname="tests.testTableForZim2" time="0.108"/>
-  <testcase name="testTableElementsText[4](Contact, Island Trading, Helen Bennett)" classname="tests.testTableForZim2" time="0.688"/>
-  <testcase name="testTableElementsText[5](Contact, UK, Helen Bennett)" classname="tests.testTableForZim2" time="0.712"/>
-  <system-out><![CDATA[2020-01-16 23:31:29 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-01-17 09:32:39)
-2020-01-16 23:31:29 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-01-17 09:32:39)
-2020-01-16 23:31:29 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
-2020-01-16 23:31:29 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
-2020-01-16 23:31:29 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
-Opening Text File:D:\Projects\JobTests\zimTest16_1_2019\ZimTest\src\test\resources\TestData\testTableElementsText.txt
+  <testcase name="testTableElementsText[0](Country, Maria Anders, Germany)" classname="tests.testTableForZim2" time="0.13"/>
+  <testcase name="testTableElementsText[1](Country, Ernst Handel, Austria)" classname="tests.testTableForZim2" time="0.091"/>
+  <testcase name="testTableElementsText[2](Company, Mexico, Centro comercial Moctezuma)" classname="tests.testTableForZim2" time="0.073"/>
+  <testcase name="testTableElementsText[3](Company, Helen Bennett, Island Trading)" classname="tests.testTableForZim2" time="0.199"/>
+  <testcase name="testTableElementsText[4](Contact, Island Trading, Helen Bennett)" classname="tests.testTableForZim2" time="0.083"/>
+  <testcase name="testTableElementsText[5](Contact, UK, Helen Bennett)" classname="tests.testTableForZim2" time="0.141"/>
+  <system-out><![CDATA[2020-01-18 19:14:56 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:14:56 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:14:56 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-18 19:14:56 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-18 19:14:56 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+Opening Text File:D:\Projects\JobTests\zimTest20_1_2020\zimTest\src\test\resources\TestData\testTableElementsText.txt
 Browser: Chrome
 WebsiteURL: https://www.777.com/
 Browser: Chrome
@@ -26,10 +26,10 @@ WebsiteURL: https://www.777.com/
 Browser: Chrome
 WebsiteURL: https://www.777.com/
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 37607
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 38598
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:31:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:14:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
@@ -85,10 +85,10 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 18756
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 35069
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:31:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:15:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
@@ -144,10 +144,10 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 8590
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 23142
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:31:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
@@ -203,10 +203,10 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 15775
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 43389
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:31:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:15:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
@@ -262,10 +262,10 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 30911
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 47949
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:32:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:15:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
@@ -321,10 +321,10 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 2406
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29808
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 11:32:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2020 7:16:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
 	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)

@@ -4758,3 +4758,129 @@ Suomi
 2020-01-16 23:31:29 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
 2020-01-16 23:31:29 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
 2020-01-16 23:31:29 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+2020-01-18 19:13:58 DEBUG Preferences:93 - Removing preference chrome=79 (expired on 2020-01-17 09:32:39)
+2020-01-18 19:13:58 DEBUG Shell:55 - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2020-01-18 19:13:59 DEBUG Shell:57 - Result: Version=79.0.3945.117
+2020-01-18 19:13:59 DEBUG Preferences:93 - Removing preference chrome79=79.0.3945.36 (expired on 2020-01-17 09:32:39)
+2020-01-18 19:13:59 DEBUG WebDriverManager:667 - Getting driver version for chrome79 from online versions.properties
+2020-01-18 19:13:59 DEBUG RequestAddCookies:123 - CookieSpec selected: standard
+2020-01-18 19:13:59 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-01-18 19:13:59 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-01-18 19:13:59 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-18 19:13:59 DEBUG MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-01-18 19:13:59 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/151.101.12.133:443
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/151.101.12.133:443 with timeout 0
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:395 - Starting handshake
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:425 - Secure session established
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-01-18 19:13:59 DEBUG SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-01-18 19:13:59 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.4:62034<->151.101.12.133:443
+2020-01-18 19:13:59 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-01-18 19:13:59 DEBUG MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-01-18 19:13:59 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-01-18 19:13:59 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-01-18 19:13:59 DEBUG headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-01-18 19:13:59 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-01-18 19:13:59 DEBUG headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-01-18 19:13:59 DEBUG headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-01-18 19:13:59 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "ETag: W/"32eca6b216a09d4fc59e0710041a40111ad70bb06707206a469fc3bad0219302"[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Via: 1.1 varnish-v4[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 303E:067F:DD223:10FC43:5E233CC1[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 686[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Date: Sat, 18 Jan 2020 17:13:59 GMT[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Served-By: cache-fra19142-FRA[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Cache: MISS[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Cache-Hits: 0[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Timer: S1579367639.327275,VS0,VE88[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 936bbcb607bac95ff3d802240690a45c832dba49[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Expires: Sat, 18 Jan 2020 17:18:59 GMT[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "Source-Age: 52[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-01-18 19:13:59 DEBUG wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xcb][0xae][0xdb] [0x10]@[0xf7][0xf9][\n]"
+2020-01-18 19:13:59 DEBUG wire:87 - http-outgoing-0 << "[0xa4][0xbb]i[0x17][0xc1][0xbc][0xc]v$6}[0xae][0xaa].[0xda][0x1f]p[0x12][0x92]X[0xd7]1[0x11]vn[0xda]~}[0x19][0x1e].[0xd7]j[0xa5].[0xcf]1[0xc][0x13][0x86][0x99]<[0xa1][0xef][0x97]~B[0xa7]~0[0xe8]`[0xc7][0xb9][0xeb][0xc7][0x9][0xcd][0x17][0x83][0x9e]G[0xfb][0x18][0xd1][0x8b]qSo[0xbd]:Y[0x87][0x8e][0xae][0x7]Fo[0xf6][0xfd][0xd8][0xb9][0x9f]o[0xfd][0x86][0xeb][0xad][0x9b][0xfb][0xbd][0xdf][0xfb][0xe8][0xe7]K[0xd8]w[0xb0][0xce][0x99][0xe9]f[0xc7]c?[0x9e][0xd1][0xde][0xd9][0xc7]d\[0x8e][0xb3][0xd9]<[0xa1]wQ[0xed][0xd0]gk[0xcf]~[0xe7][0xfb][0x8b][0xb3]W[0x83][0xb6][0xe8]C[0x8][0xbf]C[0x87] [0xe2]a~[0xfd]7{w[0x7][0xb3]C[0x97]y[0xbe][0xed][0xaa][0xaa][0xfc][0x8a][0x3][0xf4][0xf7]+[0xb6][0xee]\[0x1d]}[0xc2][0x83][0xed][0x8e][0xd3]&[0xae]i[0x88]n[0x8]&[0x98][0xb7][0x8d][0xc2]T&[0xab]Z[0xad][0xda]`E[0x8d][0xf9]b[0x1b][0xad][0x9a]`[0x89][0xc0][0x94][0xd4]Y+[0xad][0x14][0xe8]F[0xd6]X[0x90]l[0xa5]V2X[0xd2]b[0xca][0x96][0x18][0xb5]V5h[0xa5][0x8][0xa6]V[0xb][0xad]D[0xd0][0xac][0xc5][0xcb]Z[0xae][0x15][0x7])[0x1b][0x8e]e[0x93]-[0xd3][0xc][0x8b]e[\r]}E[0x4]('&[ [0x91][0xa9][0x1]b[0x99][0x14][0x10][0xcd]$[0x81]r2[0xb2][0xf6][0xc4][0xf3]yR[0x0][0xa9]L[0x1c]([0x9f]'![0x17][0xbe][0x9c][0x7][0xb9][0xf0][0xe5]<[0xc8][0x85][0xf3]W[0xd5][0xfc]b[0xf5][0xc3][0xd0][0xa1]O[0xbd]3'[0xfb][0xa3][0xa8][0xe7][0xd9][0x1c][0x9e][0xed]_[0xcb]9[0xf9]z[0x9e][0xfd][0xc3][0xb9][0xef][0xb1]J[0xd5]5[0x86][0xa8][0x8a][\r][0x95]3[0x83][0xe9]&3mN1[0xae][0xbf]"[0x82][0x99][0xbf][0xfd]E[0xd0][0xb5] +[0xe1][0xef]j%[0x1a][0x10]u![0x14][0x8]Q[0x8][0xb9][0x16][0xf5]Z[0x8][0x10][0xbc][0x10]|-B[0xa6][0xac][0x10]!SZ[0x8][0xb2][0x12]u[0xbb][0x16][0xcd]Z[0xa8][0xb5][0x8][0x99][0x92]B[0xd4]Y[0x94][0xd5][0xf9]z3[0xae]+jb[0x81][0xff][0xa7]&a[0xe1]dO[0xf3][0xa3]s&Rn[0xba]u[0x85][0xc2]Gs[0xda]K[0xb5]I[0xd6]Ew5*IQ[0xf4][0x16]e$Y^[0xf6][0x16]g[0xc9][0xb2][0xb2][0xb5]H^[0x9b]Z"@[0xdd][0x96][0x90][0x1a]"B[0xea][0x87][0x8][0xa9][0x1d]"[0xa4]n[0x88][0x90][0x9a]!B[0xea][0x85][0x8][0xa9][0x15]"[0xd0][0xf8][0xf6]#[0x90][0x2][0x4]d[0x90]3[0x16][0x90][0x1]O[0xe7][0x8][0xc8][0x80][0xa5][0xcb][0x10]2[0xc2][0xab][0xe6][0xe9][0xf][0xce][0xc2]-[0xa3][0x8f][0xc7]s9[0xb][0xaf][0x93][0xf1][0xe2][0x9f][0x85]:[0x9a][0x17]3@T|[0xcd][0x11]B[0xd5][0xcc][0xb8][0xbd]O[0xd5][0xe2][0xb6][0x10][0xa4][0x9a][0xad][0x1d][0xa6][0xea]a[0xf6][0xa9]p[0x1b][0xb0][0xcb][0x90][0x94][0x14]~[0x8][0xa8]eBRx[0xcd][0xc1][0xa4][0xe9][0xc8][0xa0]`[0xd1][0xa4][0xc1][0xc8][0xf8]b[0xd2]P[0xa4][0xcd][0xb2]+[0xcd]C[0xca][[0xff] [0x83][0x12]B[0xdf][0x9c][0xd9][0xfa][0xff][0x98][0xb9][0x1b][0x6]s[0x8c][0x92]i[0x89][0xa9][0xa2]~[0xbc][0x4][0xa4][0xda][0xbf][0x7][0xc9][0xda]6"[0xd1]~"[0xd7]D[0xc6][0xe4]x[0xa3][0xb9][0x1f][0xae][0xbc][0x8d][0xc8][0xa0][0x82]~^72"[0xd1][0xd4]#[0xf3][0x5][0xfe][\r]2Xo5[0xd9][0x6][0x0][0x0]"
+2020-01-18 19:13:59 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << ETag: W/"32eca6b216a09d4fc59e0710041a40111ad70bb06707206a469fc3bad0219302"
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Geo-Block-List:
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Via: 1.1 varnish-v4
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 303E:067F:DD223:10FC43:5E233CC1
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Content-Length: 686
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Date: Sat, 18 Jan 2020 17:13:59 GMT
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Served-By: cache-fra19142-FRA
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Cache: MISS
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Cache-Hits: 0
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Timer: S1579367639.327275,VS0,VE88
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 936bbcb607bac95ff3d802240690a45c832dba49
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Expires: Sat, 18 Jan 2020 17:18:59 GMT
+2020-01-18 19:13:59 DEBUG headers:125 - http-outgoing-0 << Source-Age: 52
+2020-01-18 19:13:59 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-01-18 19:13:59 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-01-18 19:13:59 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-01-18 19:13:59 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-18 19:13:59 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-18 19:13:59 DEBUG Preferences:66 - Storing preference chrome=79 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:13:59 DEBUG Preferences:66 - Storing preference chrome79=79.0.3945.36 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:13:59 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-18 19:13:59 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+2020-01-18 19:14:07 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-18 19:14:17 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-18 19:14:17 DEBUG mainPage:75 - floating menu element= English
+2020-01-18 19:14:19 DEBUG mainPage:85 - language selected= EN
+2020-01-18 19:14:29 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-18 19:14:29 DEBUG mainPage:75 - floating menu element= Deutsch
+2020-01-18 19:14:32 DEBUG mainPage:85 - language selected= DE
+2020-01-18 19:14:48 DEBUG mainPage:55 - floating menu elements text:English
+Deutsch
+Suomi
+2020-01-18 19:14:48 DEBUG mainPage:75 - floating menu element= Suomi
+2020-01-18 19:14:53 DEBUG mainPage:85 - language selected= FI
+2020-01-18 19:14:56 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:14:56 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-01-19 19:13:59)
+2020-01-18 19:14:56 INFO  WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-18 19:14:56 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-18 19:14:56 INFO  WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\AmielShlomoZvi\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
